@@ -9,7 +9,7 @@ import './app.css'
 
 const App = () =>{
     return (
-        <div>
+        <div className = 'markup-app'>
             <AppHeader/>
             <div className = "search-panel d-flex">
                 <SearchPanel/> 
