@@ -1,3 +1,8 @@
+span{
+  border: 3px solid rgb(67, 60, 168); 
+  border-radius: 5px; 
+}
+
 .app-list-item {
     font-size: 1.25rem;
   }
