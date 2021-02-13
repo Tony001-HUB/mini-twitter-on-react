@@ -1,6 +1,7 @@
-import React from 'react'
-import PostListItem from '../post-list-item/post-list-item'
-import './post-list.css'
+import React from 'react';
+import PostListItem from '../post-list-item/post-list-item';
+import './post-list.css';
+import { ListGroup } from 'reactstrap';
 
 const PostList = ({posts}) => {
 
@@ -14,12 +15,10 @@ const PostList = ({posts}) => {
     })
     //if don't use es8 then item.id so next
 
-    return (
-        <div>
-            <ul className="app-list list-group">
+    return (   
+            <ListGroup className="app-list list-group">
                 {elements}
-            </ul>
-        </div>
+            </ListGroup>
     )
 }
 
